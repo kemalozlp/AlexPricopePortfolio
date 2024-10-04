@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 import About from "./about/page";
+import Favorite from "./favorite/page";
 
 
 
@@ -26,7 +27,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <About/>
+      <About />
+      <Favorite />
     </>
   );
 }
