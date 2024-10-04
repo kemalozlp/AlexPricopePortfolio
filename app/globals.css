@@ -138,6 +138,7 @@ img {
     color: #FFFFFF;
     display: flex;
     align-items: center;
+    cursor: pointer;
     margin-bottom: 40px;
     font-size: 30px;
     gap: 20px;
@@ -170,5 +171,44 @@ img {
 }
 
 .about {
-  color: white;
+
+  h1 {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 45px;
+  }
+}
+
+.aboutText {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    gap: 5px;
+    color: white;
+  }
 }

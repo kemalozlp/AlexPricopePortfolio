@@ -21,7 +21,7 @@ export default function Home() {
             collection of my best work</p>
           <button>View Project <span>→</span></button>
           <div className="heroBtn">
-            <Link href="https://www.linkedin.com/in/kemal-%C3%B6zalp-793403300/"> <Image width={45} height={45} src="/images/linkedin.svg" /> Linkedin <span>→</span></Link>
+            <Link href="https://www.linkedin.com/in/kemal-%C3%B6zalp-793403300/"> <Image width={45} height={45} src="/images/linkedinn.png" /> Linkedin <span>→</span></Link>
             <Link href="https://github.com/kemalozlp"> <Image width={45} height={45} src="/images/github.svg" />GitHub <span>→</span></Link>
           </div>
         </div>
