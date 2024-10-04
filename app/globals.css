@@ -63,9 +63,12 @@ h6 {
   width: 1440px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   
-
-  h3 {
+  >a {
+    width: 150px;
+    font-size: 28px;
+    text-decoration: none;
     color: white;
   }
 }
@@ -89,4 +92,9 @@ h6 {
   border: none;
   background-color: #2ACF7E;
   color: white;
+  cursor: pointer;
+}
+
+div {
+  color: aqua;
 }

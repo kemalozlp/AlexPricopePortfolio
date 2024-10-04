@@ -4,7 +4,7 @@ import "../globals.css";
 export default function Headers() {
   return (
     <div className="Headers">
-      <h3>Alex Pricope</h3>
+      <Link href="/">Alex Pricope</Link>
       <div className="headersurls">
         <Link href="">
           Home
