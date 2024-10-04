@@ -7,12 +7,15 @@
 
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: #020202;
 }
 
 
@@ -48,4 +51,42 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding-block:30px ;
+}
+
+.Headers  {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  
+
+  h3 {
+    color: white;
+  }
+}
+
+.headersurls  {
+  display: flex;
+  gap: 50px;
+  
+  
+  a {
+    color: #F5F5F5;
+    text-decoration: none;
+  }
+  
+}
+
+.headerBtn {
+  width: 120px;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2ACF7E;
+  color: white;
 }
